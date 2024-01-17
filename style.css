@@ -580,3 +580,40 @@ width: 100%;
   #expanded-paragraph {
     display: none;
 }
+
+
+
+/* extra style added */
+
+.un:hover{
+  border-bottom: 2px solid blueviolet;
+}
+.card1>img
+{
+  height:100px;
+  width: auto;
+  object-fit: cover;
+   border-radius: 50%;
+  transition: 0.3s ease-in-out;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card2>img
+{
+  height:100px;
+  width: auto;
+  object-fit: cover;
+   border-radius: 50%;
+  transition: 0.3s ease-in-out;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card3>img
+{
+  height:100px;
+  width: auto;
+  object-fit: cover;
+   border-radius: 50%;
+  transition: 0.3s ease-in-out;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
