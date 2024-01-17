@@ -1,0 +1,130 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: poppins;
+    background: rgb(2, 0, 36);
+    background: linear-gradient(
+      90deg,
+      rgba(2, 0, 36, 1) 0%,
+      rgba(253, 0, 213, 0.241421568627451) 0%,
+      rgba(0, 148, 255, 0.24) 100%
+    );
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    overflow-x: hidden;
+  }
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background: transparent; /* Adjust gradient colors */
+  }
+  
+  .logo {
+    display: flex;
+    align-items: center;
+  }
+  
+  .logo img {
+    max-height: 50px;
+    margin-right: 10px;
+  }
+  
+  .logo span {
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #4b0082; /* Purple color */
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+  }
+  
+  nav ul li {
+    margin: 0 15px;
+  }
+  
+  nav ul li a {
+    text-decoration: none;
+    color: #4b0082; /* Purple color */
+  }
+  
+  .contact-button {
+    background-color: #4b0082;
+    color: #fff;
+    padding: 10px 15px;
+    border-radius: 5px;
+  }
+.team{
+  text-align: center;
+} 
+.team-container{
+  width:100%;
+  
+  display: flex;
+  flex-direction: row;
+
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin: 40px 0px;
+}
+.team-card{
+  
+  width: 180px;
+  margin: 10px 40px;
+
+  transition: transform ease-in-out .8s;
+  border: 0px;
+  border-radius: 7px;
+}
+.team-card>img{
+  height:100px;
+  width: auto;
+  object-fit: cover;
+  border-radius: 50%;
+  transition: 0.3s ease-in-out;
+
+
+
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.team-card>img:hover{
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
+
+
+  border-radius: 14px;
+}
+.team-card>h1,h3,p{
+  margin: 0px;
+}
+.team-card:hover{
+  transform: scale(1.05);
+ 
+}
+@media (max-width: 768px) {
+  nav ul{
+    display: none;
+  }
+  .team-card{
+    margin: 4px;
+  }
+}
+
+
+
+footer {
+  background-color: #1b1b1b;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+
+/* Responsive styles for the footer */
+@media (max-width: 768px) {
+  footer {
+      padding: 10px;
+  }
+}
